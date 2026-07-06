@@ -4,6 +4,7 @@ import SocialProof from '@/components/SocialProof';
 import Services from '@/components/Services';
 import HowItWorks from '@/components/HowItWorks';
 import Results from '@/components/Results';
+import Reviews from '@/components/Reviews';
 import Faq from '@/components/Faq';
 import Cta from '@/components/Cta';
 import Footer from '@/components/Footer';
@@ -17,6 +18,7 @@ export default function Home() {
       <Services />
       <HowItWorks />
       <Results />
+      <Reviews />
       <Faq />
       <Cta />
       <Footer />

@@ -1,7 +1,8 @@
 'use client';
 
 import { useState } from 'react';
-import { Menu, X } from 'lucide-react';
+import { HugeiconsIcon } from '@hugeicons/react';
+import { Menu01Icon, Cancel01Icon } from '@hugeicons/core-free-icons';
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -18,13 +19,14 @@ export default function Navbar() {
           className="md:hidden font-black text-2xl"
           aria-label="Toggle menu"
         >
-          {menuOpen ? <X size={32} /> : <Menu size={32} />}
+          {menuOpen ? <HugeiconsIcon icon={Cancel01Icon} size={32} /> : <HugeiconsIcon icon={Menu01Icon} size={32} />}
         </button>
 
         <div className="hidden md:flex gap-8 items-center">
           <a href="#services" className="font-black uppercase text-sm hover:underline">Services</a>
           <a href="#how" className="font-black uppercase text-sm hover:underline">How it works</a>
           <a href="#results" className="font-black uppercase text-sm hover:underline">Results</a>
+          <a href="#reviews" className="font-black uppercase text-sm hover:underline">Reviews</a>
           <a href="#faq" className="font-black uppercase text-sm hover:underline">FAQ</a>
           <a
             href="#cta"
@@ -41,6 +43,7 @@ export default function Navbar() {
           <a href="#services" onClick={() => setMenuOpen(false)} className="block px-6 py-3 font-black uppercase text-sm border-b-2 border-black hover:bg-lime-100">Services</a>
           <a href="#how" onClick={() => setMenuOpen(false)} className="block px-6 py-3 font-black uppercase text-sm border-b-2 border-black hover:bg-lime-100">How it works</a>
           <a href="#results" onClick={() => setMenuOpen(false)} className="block px-6 py-3 font-black uppercase text-sm border-b-2 border-black hover:bg-lime-100">Results</a>
+          <a href="#reviews" onClick={() => setMenuOpen(false)} className="block px-6 py-3 font-black uppercase text-sm border-b-2 border-black hover:bg-lime-100">Reviews</a>
           <a href="#faq" onClick={() => setMenuOpen(false)} className="block px-6 py-3 font-black uppercase text-sm border-b-2 border-black hover:bg-lime-100">FAQ</a>
           <a href="#cta" onClick={() => setMenuOpen(false)} className="block px-6 py-3 font-black uppercase text-sm bg-lime-300 border-b-2 border-black hover:bg-lime-200">Book a free strategy call</a>
         </div>

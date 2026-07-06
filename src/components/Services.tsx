@@ -1,38 +1,39 @@
-import { Globe, ShoppingCart, MapPin, Zap, Users, BarChart3 } from 'lucide-react';
+import { HugeiconsIcon } from '@hugeicons/react';
+import { GlobeIcon, ShoppingCart01Icon, MapPinIcon, ZapIcon, UserGroupIcon, BarChartIcon } from '@hugeicons/core-free-icons';
 
 const services = [
   {
-    icon: <Globe size={28} strokeWidth={2.5} />,
+    icon: <HugeiconsIcon icon={GlobeIcon} size={28} strokeWidth={2.5} />,
     color: 'bg-lime-300',
     title: 'Professional Website',
     description: 'A fast, mobile-friendly site that tells your story and converts visitors into customers.',
   },
   {
-    icon: <ShoppingCart size={28} strokeWidth={2.5} />,
+    icon: <HugeiconsIcon icon={ShoppingCart01Icon} size={28} strokeWidth={2.5} />,
     color: 'bg-cyan-300',
     title: 'Online Store',
     description: 'Accept orders and payments online. No marketplace commissions, full control of your business.',
   },
   {
-    icon: <MapPin size={28} strokeWidth={2.5} />,
+    icon: <HugeiconsIcon icon={MapPinIcon} size={28} strokeWidth={2.5} />,
     color: 'bg-yellow-300',
     title: 'Google Business',
     description: 'Optimized listings so local customers find you first. Reviews, photos, and direct messaging included.',
   },
   {
-    icon: <Zap size={28} strokeWidth={2.5} />,
+    icon: <HugeiconsIcon icon={ZapIcon} size={28} strokeWidth={2.5} />,
     color: 'bg-pink-400',
     title: 'Lightning Fast',
     description: 'Your site loads in under 2 seconds. Google ranks faster sites higher — you win customers.',
   },
   {
-    icon: <BarChart3 size={28} strokeWidth={2.5} />,
+    icon: <HugeiconsIcon icon={BarChartIcon} size={28} strokeWidth={2.5} />,
     color: 'bg-lime-300',
     title: 'Scale-Ready',
     description: 'Built to handle growth. Start small, add features as your business grows — no rebuild needed.',
   },
   {
-    icon: <Users size={28} strokeWidth={2.5} />,
+    icon: <HugeiconsIcon icon={UserGroupIcon} size={28} strokeWidth={2.5} />,
     color: 'bg-cyan-300',
     title: 'Web3 Ready',
     description: 'Crypto payments, NFT galleries, blockchain integration — future-proof your business today.',
