@@ -5,7 +5,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
             <h3 className="font-black uppercase text-lg mb-4">Granite Studio</h3>
-            <p className="font-medium">Building websites that scale small businesses into market leaders.</p>
+            <p className="font-medium">We build. You grow.</p>
           </div>
           <div>
             <h3 className="font-black uppercase text-lg mb-4">Services</h3>

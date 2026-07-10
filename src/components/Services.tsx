@@ -18,7 +18,7 @@ const services = [
     icon: <HugeiconsIcon icon={MapPinIcon} size={28} strokeWidth={2.5} />,
     color: 'bg-yellow-300',
     title: 'Google Business',
-    description: 'Optimized listings so local customers find you first. Reviews, photos, and direct messaging included.',
+    description: 'Optimised listings so local customers find you first. Reviews, photos, and direct messaging included.',
   },
   {
     icon: <HugeiconsIcon icon={ZapIcon} size={28} strokeWidth={2.5} />,

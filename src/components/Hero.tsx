@@ -20,7 +20,7 @@ export default function Hero() {
               </span>
             </h1>
             <p className="text-lg md:text-xl font-medium max-w-2xl mb-8 leading-relaxed">
-              Build a website, launch an online store, optimize your Google listing, and scale your business — all without touching code.
+              Your business online. Built for you, run by you.
             </p>
             <a
               href="#cta"
@@ -32,17 +32,11 @@ export default function Hero() {
           </div>
           <div className="relative">
             <img
-              src="https://picsum.photos/seed/business-laptop/600/500"
+              src="https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?auto=format&fit=crop&w=600&h=500&q=80"
               alt="Small business owner working on laptop with online store dashboard"
               className="w-full h-80 object-cover border-4 border-black"
               style={{ boxShadow: '12px 12px 0 #000', transform: 'rotate(1deg)' }}
             />
-            <div
-              className="absolute -bottom-4 -left-4 bg-cyan-300 border-2 border-black px-4 py-2 font-black uppercase text-sm"
-              style={{ transform: 'rotate(-3deg)', boxShadow: '4px 4px 0 #000' }}
-            >
-              14-day launch
-            </div>
           </div>
         </div>
       </div>

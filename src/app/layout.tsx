@@ -15,7 +15,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: 'Granite Studio — Your Business Online',
-  description: 'Build a website, launch an online store, optimize your Google listing, and scale your business — all without touching code.',
+  description: 'Build a website, launch an online store, optimise your Google listing, and scale your business — all without touching code.',
 };
 
 export default function RootLayout({

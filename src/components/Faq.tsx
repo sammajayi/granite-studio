@@ -5,7 +5,7 @@ import { useState } from 'react';
 const faqs = [
   {
     q: 'How long does it take to build my site?',
-    a: 'Most businesses launch within 14 days. We handle everything — design, content, setup — so you can focus on running your business.',
+    a: "Build time depends on the scope of your project. A simple site moves faster than a full ecommerce store or custom integration. We'll give you a clear timeline on your free strategy call.",
   },
   {
     q: 'Do you do ecommerce stores?',
@@ -13,19 +13,15 @@ const faqs = [
   },
   {
     q: 'What about Google Business listings?',
-    a: 'We set up and optimize your listing so customers find you locally. Includes photos, hours, reviews, and direct messaging.',
+    a: 'We set up and optimise your listing so customers find you locally. Includes photos, hours, reviews, and direct messaging.',
   },
   {
-    q: 'Can you help with web3 stuff?',
-    a: 'Absolutely. We build NFT galleries, crypto payment integration, and blockchain-connected storefronts for forward-thinking businesses.',
+    q: 'Do you build web3 projects?',
+    a: "Yes. Our team has versatile strengths across industries — we've shipped payment systems, infrastructure products, NFT platforms, and more. Whatever you're building, we've likely built something close.",
   },
   {
-    q: 'What if I already have a website?',
-    a: 'We redesign and scale existing sites. Faster loading, mobile optimization, better conversion rates, and full CMS control for you.',
-  },
-  {
-    q: 'Do I need to know tech?',
-    a: 'No. We handle all the technical work. You get a simple dashboard to update your content, add products, and manage orders.',
+    q: 'Do I need to understand tech?',
+    a: 'Not at all. We provide everything you need to manage your business. If you can use a smartphone, you have all the tech knowledge required.',
   },
 ];
 
@@ -50,7 +46,6 @@ export default function Faq() {
                 className="w-full flex justify-between items-center p-6 font-black uppercase text-left text-lg hover:bg-stone-50 transition-colors"
               >
                 {faq.q}
-                <span className="text-3xl shrink-0 ml-4">{openFaq === i ? '−' : '+'}</span>
               </button>
               {openFaq === i && (
                 <div className="px-6 pb-6 font-medium text-lg border-t-2 border-black pt-4">

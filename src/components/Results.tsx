@@ -1,6 +1,5 @@
 const stats = [
   { value: '3.2x', color: 'text-lime-400', label: 'Average revenue increase in first year' },
-  { value: '14 days', color: 'text-cyan-300', label: 'Average time from call to launch' },
   { value: '80+', color: 'text-pink-400', label: 'Small businesses now thriving online' },
 ];
 
@@ -25,8 +24,8 @@ export default function Results() {
           </div>
           <div className="relative">
             <img
-              src="https://picsum.photos/seed/small-business-growth/600/500"
-              alt="Business owner celebrating growth and online success"
+              src="https://images.unsplash.com/photo-1543286386-713bdd548da4?auto=format&fit=crop&w=600&h=500&q=80"
+              alt="Business owner reviewing an upward growth chart"
               className="w-full h-80 object-cover border-4 border-black"
               style={{ boxShadow: '12px 12px 0 #000', transform: 'rotate(-1deg)' }}
             />

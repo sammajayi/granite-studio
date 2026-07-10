@@ -5,7 +5,7 @@ const reviews = [
   {
     name: 'Maria Santos',
     business: 'Owner, Casa Bella Bakery',
-    quote: 'Orders doubled within the first month. The site paid for itself before the 14 days were even up.',
+    quote: 'Orders doubled within the first month. The site paid for itself almost immediately.',
     color: 'bg-lime-300',
   },
   {
